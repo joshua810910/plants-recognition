@@ -1,0 +1,142 @@
+
+@font-face{
+font-family:Bonk;
+src:url(font/nobilty.ttf) format("truetype");
+}
+
+@font-face{
+font-family:Austset;
+src:url(font/Austset.ttf) format("truetype");
+}
+
+@font-face{
+font-family:BITSUMIS;
+src:url(font/BITSUMIS.ttf) format("truetype");
+}
+
+header{
+text-align:center;
+}
+
+footer{
+text-align:center;
+}
+
+
+.file {
+filter:alpha(opacity:0);
+opacity: 0;
+position:absolute;
+}
+
+.main_scene{
+width:50%;
+margin:0px auto;
+background:linear-gradient(left top,#ffeeaa,#ffffaa);
+background:-webkit-gradient(linear,left top,left bottom,from(#ffeeaa),to(#ffffaa));
+background:-o-linear-gradient(left top,#ffeeaa,#ffffaa);
+background:-moz-linear-gradient(left top,#ffeeaa,#ffffaa);
+padding: 20px;
+border-top-left-radius:30px;
+border-top-right-radius:30px;
+border-bottom-left-radius:30px;
+border-bottom-right-radius:30px;
+font-size:14pt;
+}
+
+.title{
+text-shadow:#ffeeaa 5px 5px 3px;
+font-family:Austset; 
+color:#dd6622;
+font-size:26pt;
+}
+
+.span_f_left{
+float:left;
+}
+
+.recom_browser{
+font-family:Austset;
+color:#9f9f9f;
+}
+
+.step{
+display:box;
+display:-moz-box;
+display:-webkit-box;
+-webkit-box-align:center;
+-moz-box-align:center;
+}
+
+#step_left{
+float:left;
+height:100%;
+border:0px solid #000000;
+font-family:baby_blocks;
+}
+
+#step_right{
+margin-left:20%;
+border:0px solid #000000;
+font-family:baby_blocks;
+}
+
+#body{
+margin:0px auto;
+}
+
+#result{
+width:100%;
+display:box;
+display:-moz-box;
+display:-webkit-box;
+-webkit-box-pack:center;
+-moz-box-pack:center;
+margin:0px auto;
+text-align:center;
+overflow-x:auto;
+}
+
+
+/*這個也要設width:100%才會讓table填滿整個div*/
+#playSong{
+width:90%;
+text-align:center;
+}
+
+#result center{
+width:100%;
+}
+
+/*這個就是讓audio在不同解析度也不會超出去的關鍵!!width設100%*/
+#playSong #song_ori{
+width:70%;
+}
+
+#playsSong .similar_song{
+width:42.5%;
+}
+
+#playSong .similar_song2{
+width:42.5%;
+}
+
+.similar_genre{
+width:15%;
+}
+
+#playSong .similarsong{
+width:100%;
+}
+
+#playSong .similarsong2{
+width:100%;
+}
+
+#warning_area{
+display:none;
+}
+
+iframe{
+display:none;
+}
